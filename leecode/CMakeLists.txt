@@ -3,4 +3,4 @@ project(leecode)
 
 set(CMAKE_CXX_STANDARD 14)
 include_directories(./include/)
-add_executable(leecode main.cpp ./include/twoSum.cpp)
+add_executable(leecode main.cpp ./include/twoSum.cpp include/addTwoNumbers.cpp)
